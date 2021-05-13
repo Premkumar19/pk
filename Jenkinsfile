@@ -6,5 +6,10 @@ pipeline{
                 echo"welcome to jenkins pipeline"
             }
         }
+       stage('test'){
+           steps{
+            echo "running unit test"
+           }
+       }
     }
 }
